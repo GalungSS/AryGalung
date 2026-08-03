@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <script src="js.js"></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>G-Coffe</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav class="navbar" id="mainNavbar">
+    <div class="navbar-brand">
+      <div class="navbar-logo">☕</div>
+      <span class="navbar-title">G-Coffe</span>
+    </div>
+
+    <ul class="navbar-nav">
+      <li><a href="#home"   class="nav-link" data-section="home">🏠 Home</a></li>
+      <li><a href="#kasir"  class="nav-link" data-section="kasir">💻 Product</a></li>
+      <li><a href="#about"  class="nav-link" data-section="about">🌿 About</a></li>
+      <li><a href="status.html" class="nav-link">📋 Status Transaksi</a></li>
+      <li><a href="struk.html"  class="nav-link">🧾 Struk</a></li>
+    </ul>
+
+    <div class="navbar-right">
+      <span class="navbar-user">👤 GalungGantenk</span>
+      <a href="login.html" class="btn-logout">Logout</a>
+    </div>
+  </nav>
+  
+
+  <!-- ===== HOME SECTION ===== -->
+  <div id="home" class="home-wrapper">
+    <div class="home-text">
+      <h1>Selamat Datang<br>di G-Coffe</h1>
+      <p>
+        Nikmati kopi terbaik dengan suasana hangat dan nyaman.
+        Kami menyajikan berbagai pilihan kopi, non-kopi, makanan, dan dessert
+        untuk menemani hari Anda.
+      </p>
+      <a href="#kasir" class="btn-cta">Lihat Menu</a>
+    </div>
+  </div>
+
+
+  <!-- ===== MAIN ===== -->
+  <div class="page-wrapper">
+
+    <!-- Stats Bar -->
+    <div class="stats-bar">
+      <div class="stat-card">
+        <div class="stat-label">Transaksi Hari Ini</div>
+        <div class="stat-value">42</div>
+        <div class="stat-note">↑ 8 dari kemarin</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">Pendapatan Hari Ini</div>
+        <div class="stat-value">Rp 2,4 Jt</div>
+        <div class="stat-note">↑ 12% dari kemarin</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">Item Terjual</div>
+        <div class="stat-value">118</div>
+        <div class="stat-note">↑ 5 dari kemarin</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">Rata-rata Pesanan</div>
+        <div class="stat-value">Rp 57 Rb</div>
+        <div class="stat-note">Stabil</div>
+      </div>
+    </div>
+
+    <!-- Kasir Layout -->
+    <div id="kasir" class="kasir-layout">
+
+      <!-- LEFT: Produk -->
+      <div>
+        <div class="page-header">
+          <h1 class="page-title">Menu Hari Ini</h1>
+          <p class="page-subtitle">Pilih produk dan tambahkan ke keranjang pesanan</p>
+        </div>
+
+        <!-- Category Tabs -->
+        <div class="category-tabs">
+          <button class="tab-btn active">☕ Semua</button>
+          <button class="tab-btn">🍵 Kopi</button>
+          <button class="tab-btn">🥤 Non-Kopi</button>
+          <button class="tab-btn">🥐 Makanan</button>
+          <button class="tab-btn">🧁 Dessert</button>
+        </div>
+
+        <!-- Product Grid -->
+        <div class="product-grid">
+
+          <div class="product-card">
+            <div class="product-badge">Terlaris</div>
+            <div class="product-img-placeholder">
+              <img src="FolderFOTO/ESSPRESSO.jpg" height="125" width="165">
+            </div>
+            <div class="product-body">
+              <div class="product-name">Espresso Classico</div>
+              <div class="product-desc">Single origin Arabika, bold & rich</div>
+              <div class="product-price">Rp 28.000</div>
+              <a href="checkout.html" class="btn-add">+ Tambah</a>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="product-img-placeholder">
+              <img src="FolderFOTO/LATEE.jpg" height="135"/>
+            </div>
+            <div class="product-body">
+              <div class="product-name">Latte</div>
+              <div class="product-desc">Espresso + susu segar full cream</div>
+              <div class="product-price">Rp 35.000</div>
+              <a href="checkout.html" class="btn-add">+ Tambah</a>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="product-badge">Baru</div>
+            <div class="product-img-placeholder">
+              <img src="FolderFOTO/CAPPUCINO.jpg" height="135"/>
+            </div>
+            <div class="product-body">
+              <div class="product-name">Cappuccino</div>
+              <div class="product-desc">Espresso + microfoam lembut</div>
+              <div class="product-price">Rp 38.000</div>
+              <a href="checkout.html" class="btn-add">+ Tambah</a>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="product-img-placeholder">
+              <img src="FolderFOTO/MOCHA.jpg" height="135">
+            </div>
+            <div class="product-body">
+              <div class="product-name">Mocha Delight</div>
+              <div class="product-desc">Espresso + coklat Belgia + susu</div>
+              <div class="product-price">Rp 42.000</div>
+              <a href="checkout.html" class="btn-add">+ Tambah</a>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="product-img-placeholder">
+              <img src="FolderFOTO/Matchalatte.jpg" height="135">
+            </div>
+            <div class="product-body">
+              <div class="product-name">Matcha Latte</div>
+              <div class="product-desc">Matcha premium Jepang + susu oat</div>
+              <div class="product-price">Rp 40.000</div>
+              <a href="checkout.html" class="btn-add">+ Tambah</a>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="product-img-placeholder">
+              <img src="FolderFOTO/BrownBoba.jpg" height="135" width="150">
+            </div>
+            <div class="product-body">
+              <div class="product-name">Brown Sugar Boba</div>
+              <div class="product-desc">Teh susu + boba kenyal + gula aren</div>
+              <div class="product-price">Rp 38.000</div>
+              <a href="checkout.html" class="btn-add">+ Tambah</a>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="product-img-placeholder">
+              <img src="FolderFOTO/Croissant Butter.jpg" height="135" width="150">
+            </div>
+            <div class="product-body">
+              <div class="product-name">Croissant Butter</div>
+              <div class="product-desc">Croissant renyah mentega premium</div>
+              <div class="product-price">Rp 25.000</div>
+              <a href="checkout.html" class="btn-add">+ Tambah</a>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="product-img-placeholder">
+              <img src="FolderFOTO/classiccheesecake.jpg" height="135">
+            </div>
+            <div class="product-body">
+              <div class="product-name">Cheesecake Klasik</div>
+              <div class="product-desc">New York style, creamy & smooth</div>
+              <div class="product-price">Rp 45.000</div>
+              <a href="checkout.html" class="btn-add">+ Tambah</a>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="product-img-placeholder">
+              <img src="FolderFOTO/BANANA BREAD.jpg" height="135">
+            </div>
+            <div class="product-body">
+              <div class="product-name">Banana Bread</div>
+              <div class="product-desc">Homemade, lembut & moist</div>
+              <div class="product-price">Rp 22.000</div>
+              <a href="checkout.html" class="btn-add">+ Tambah</a>
+            </div>
+          </div>
+
+          <div class="product-card out-of-stock">
+            <div class="product-img-placeholder">
+              <img src="FolderFOTO/JUS JERUK.jpeg" height="135">
+            </div>
+            <div class="product-body">
+              <div class="product-name">Orange Juice Segar</div>
+              <div class="product-desc">Perasan langsung, tanpa gula</div>
+              <div class="product-price">Rp 30.000</div>
+              <button class="btn-add" disabled style="opacity:.5;cursor:not-allowed;">Habis</button>
+            </div>
+          </div>
+
+        </div><!-- / product-grid -->
+      </div><!-- / left column -->
+
+      <!-- RIGHT: Cart Panel -->
+      <div class="cart-panel">
+        <div class="cart-header">
+          <h3>🛒 Pesanan</h3>
+          <span class="cart-count">3</span>
+        </div>
+
+        <div class="cart-body">
+          <div class="cart-item">
+            <span class="cart-item-emoji">☕</span>
+            <div class="cart-item-info">
+              <div class="cart-item-name">Espresso Classico</div>
+              <div class="cart-item-price">Rp 28.000 / pcs</div>
+            </div>
+            <div class="cart-qty">
+              <button class="qty-btn">−</button>
+              <span class="qty-num">2</span>
+              <button class="qty-btn">+</button>
+            </div>
+          </div>
+
+          <div class="cart-item">
+            <span class="cart-item-emoji">🍰</span>
+            <div class="cart-item-info">
+              <div class="cart-item-name">Cheesecake Klasik</div>
+              <div class="cart-item-price">Rp 45.000 / pcs</div>
+            </div>
+            <div class="cart-qty">
+              <button class="qty-btn">−</button>
+              <span class="qty-num">1</span>
+              <button class="qty-btn">+</button>
+            </div>
+          </div>
+
+          <div class="cart-item">
+            <span class="cart-item-emoji">🥛</span>
+            <div class="cart-item-info">
+              <div class="cart-item-name">Latte Susu Segar</div>
+              <div class="cart-item-price">Rp 35.000 / pcs</div>
+            </div>
+            <div class="cart-qty">
+              <button class="qty-btn">−</button>
+              <span class="qty-num">1</span>
+              <button class="qty-btn">+</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="cart-summary">
+          <div class="summary-row">
+            <span>Subtotal (4 item)</span>
+            <span>Rp 136.000</span>
+          </div>
+          <div class="summary-row">
+            <span>Diskon</span>
+            <span style="color:var(--success);">− Rp 0</span>
+          </div>
+          <div class="summary-row">
+            <span>Pajak (10%)</span>
+            <span>Rp 13.600</span>
+          </div>
+          <div class="summary-row total">
+            <span>TOTAL</span>
+            <span>Rp 149.600</span>
+          </div>
+        </div>
+
+        <div class="cart-payment">
+          <div class="payment-label">Metode Bayar</div>
+          <div class="payment-methods">
+            <div class="pay-method selected">
+              <span class="method-icon">💵</span>
+              Tunai
+            </div>
+            <div class="pay-method">
+              <span class="method-icon">💳</span>
+              QRIS
+            </div>
+            <div class="pay-method">
+              <span class="method-icon">🏦</span>
+              Transfer
+            </div>
+            <div class="pay-method">
+              <span class="method-icon">📱</span>
+              E-Wallet
+            </div>
+          </div>
+          <a href="checkout.html" class="btn-checkout">💳 Lanjut Pembayaran</a>
+        </div>
+      </div>
+
+    </div><!-- / kasir-layout -->
+  </div><!-- / page-wrapper -->
+
+  <!-- ===== ABOUT SECTION ===== -->
+  <section class="about-section" id="about">
+    <div class="about-inner">
+
+      <!-- Kolom Kiri — Gambar -->
+      <div class="about-img-col">
+        <div class="about-img-wrap">
+          <img
+            src="FolderFOTO/1440x960-barista.jpg"
+            alt="Suasana G-Coffe"
+            loading="lazy"
+          />
+        </div>
+        <!-- Badge tahun berdiri -->
+        <div class="about-year-badge">
+          <span class="year-num">2021</span>
+          <span class="year-label">Est.</span>
+        </div>
+      </div>
+
+      <!-- Kolom Kanan — Teks -->
+      <div class="about-text-col">
+        <p class="about-eyebrow">Tentang Kami</p>
+
+        <h2 class="about-heading">
+          Lebih dari sekadar<br>
+          <em>secangkir kopi</em>
+        </h2>
+
+        <p class="about-body">
+          G-Coffe lahir dari kecintaan kami pada kopi yang jujur — kopi yang bercerita
+          tentang asal usul bijinya, tangan-tangan yang merawatnya, dan momen hangat
+          yang ia ciptakan bersama Anda setiap hari.
+        </p>
+
+        <p class="about-body">
+          Dengan racikan biji pilihan dan barista berpengalaman, kami menghadirkan
+          cita rasa specialty coffee yang konsisten dalam suasana yang nyaman dan
+          bersahabat untuk semua kalangan.
+        </p>
+
+        <div class="about-divider"></div>
+
+        <!-- Stats ringkas -->
+        <div class="about-stats">
+          <div class="about-stat">
+            <div class="about-stat-num">3+</div>
+            <div class="about-stat-label">Tahun berdiri</div>
+          </div>
+          <div class="about-stat">
+            <div class="about-stat-num">40+</div>
+            <div class="about-stat-label">Varian menu</div>
+          </div>
+          <div class="about-stat">
+            <div class="about-stat-num">200+</div>
+            <div class="about-stat-label">Pelanggan / hari</div>
+          </div>
+        </div>
+
+        <!-- Nilai-nilai -->
+        <div class="about-values">
+          <div class="about-value-item">
+            <div class="about-value-dot"></div>
+            <span>Biji kopi pilihan dari petani lokal Nusantara</span>
+          </div>
+          <div class="about-value-item">
+            <div class="about-value-dot"></div>
+            <span>Barista terlatih dengan standar specialty coffee</span>
+          </div>
+          <div class="about-value-item">
+            <div class="about-value-dot"></div>
+            <span>Suasana hangat dan ramah untuk semua kalangan</span>
+          </div>
+        </div>
+
+        <a href="#kasir" class="about-cta">
+          Jelajahi Menu Kami
+          <span class="about-cta-arrow">→</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+
+
+</body>
+</html>
