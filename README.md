@@ -39,4 +39,4 @@ Website sederhana menggunakan HTML dasar sebagai latihan struktur halaman.
 
 ## Kontak
 
-Hubungi saya melalui [LinkedIn](https://linkedin.com/in/username) atau [Email](mailto:emailkamu@gmail.com).
+Hubungi saya melalui [Instagram](https://linkedin.com/in/username) atau [Email](mailto:kdkarygalung@gmail.com).
