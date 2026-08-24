@@ -13,6 +13,8 @@ Saya tertarik di bidang **web development**, khususnya membuat tampilan (fronten
 
 - HTML & CSS
 - JavaScript
+- php
+- python
 - Git & GitHub
 
 ## Proyek
