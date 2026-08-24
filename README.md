@@ -1,7 +1,7 @@
 # Hello, I'm Kadek Ary Galung👋
 ## Software Engineer
 
-![username](fotoprofil.png)
+![GalungSS](fotoprofil.png)
 
 pelajar / Developer yang sedang belajar membangun web dan senang mengerjakan proyek-proyek baru.
 
@@ -27,7 +27,7 @@ Website sederhana menggunakan HTML dasar sebagai latihan struktur halaman.
 2. Halaman responsif
 3. Tampilan bersih
 
-🔗 [Lihat Demo](https://username.github.io/nama-repo)
+🔗 [Lihat Demo](https://GalungSS.github.io/AryGalung)
 
 ## Statistik
 
