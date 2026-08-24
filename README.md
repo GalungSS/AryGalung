@@ -1,5 +1,5 @@
 # Hello, I'm Kadek Ary Galung👋
-## Software engineer
+## Software Engineer
 
 ![username](fotoprofil.png)
 
