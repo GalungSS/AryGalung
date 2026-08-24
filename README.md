@@ -1,8 +1,9 @@
-# Halo, Saya [Nama Kamu] 👋
+# Hello, I'm Kadek Ary Galung👋
+## Software engineer
 
 ![username](fotoprofil.png)
 
-Mahasiswa / Developer yang sedang belajar membangun web dan senang mengerjakan proyek-proyek baru.
+pelajar / Developer yang sedang belajar membangun web dan senang mengerjakan proyek-proyek baru.
 
 ## Tentang Saya
 
